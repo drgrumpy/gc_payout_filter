@@ -1,2 +1,2 @@
 # gc_payout_filter
-A function to filter the payout items list by payment_id
+A function to filter GoCardless payout items list by the payment_id, in order to extract the fee paid.

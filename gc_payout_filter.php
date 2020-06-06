@@ -3,7 +3,8 @@
  * 
  *  we use this to get the fees for each payment when a payment is paid_out
  *  
- *  Intended to be called within a webhook. Takes two parameters: the payout_id and the payment_id.
+ *  Intended to be called within a webhook payment 'paid out' event handler. 
+ *  Takes two parameters: the payout_id and the payment_id.
  *  Returns an array of data containing the date, gross amount and fee.
  *
  *  2019-02-04 Updated to set limit of 500 items in the list... 
